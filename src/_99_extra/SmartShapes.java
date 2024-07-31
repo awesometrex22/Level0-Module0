@@ -21,23 +21,23 @@ bob.setSpeed(1000);
     	
         // Start a while loop to repeat the MOVE, TURN, and COUNT code 4 times
 
-    	while (sides<10) {
+    	while (sides<3) {
 			
 		
         //         MOVE your robot 200 pixels
-bob.move(100);
+    		bob.move(200);
 
         //         TURN the robot 90 degrees to the right
-    	bob.turn(36);
+    	bob.turn(120);
     	
     	//         COUNT. Add one to the number of sides the robot has drawn      sides+=1;
-sides+=1;
+    	sides+=1;
     	
     	// End the while loop here
     	}
     	// Run the program. You should see a square
     	
-    	
+    
     	// Now change the code to draw a different shape 
     	// e.g. triangle (3-sides), pentagon (5-sides), decagon (10-sides)
    
